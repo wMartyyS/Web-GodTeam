@@ -9,3 +9,8 @@
 
 # What is this?
 ### This is an official website of Godtýým.
+
+# Website status : Currently offline.
+
+# How to open our website?
+- Just click [here](https://github.com/wMartyyS/Web-GodTeam) to open our website.

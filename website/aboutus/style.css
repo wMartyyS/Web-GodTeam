@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+*
+{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+	text-decoration: none;
+}
+body {
+    background-color: #040404;
+	text-align: center;
+}
+.sb
+{
+	font-family: 'Poppins';
+    position: fixed;
+	left: -13.02vw;
+	width: 13.02vw;
+	height: 100%;
+	background: #0e0e0e;
+	transition: all 0.7s;
+}
+.sb header
+{
+	font-size: 1.146vw;
+	color: #fff;
+	text-align: center;
+	line-height: 3.646vw;
+	user-select: none;
+	background: #070707;
+}
+.sb ul a
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 3.385vw;
+	font-size: 1.042vw;
+	color: #fff;
+	padding-left: 2.083vw;
+	box-sizing: border-box;
+	transition: .7s;
+}
+ul li a:hover
+{
+    background: #ffbb0010;
+    color: #ffba00;
+    border-radius: 1.302vw;
+    padding-left: 2.604vw;
+}
+.sb ul a i
+{
+	margin-right: 1.563vw;
+}
+#check
+{
+	display: none;
+}
+label #btn, label #cancel
+{
+	position: absolute;
+	cursor: pointer;
+}
+label #btn
+{
+	left: 2.083vw;
+	top: 1.302vw;
+	font-size: 1.823vw;
+	color: #fff;
+	padding: 0.313vw 0.625vw;
+	transition: all .7s;
+}
+label #cancel
+{
+	z-index: 1111;
+	left: -10.156vw;
+	top: 0.885vw;
+	font-size: 1.563vw;
+	color: #fff;
+	padding: 0.208vw 0.469vw;
+	transition: all .5s ease;
+}
+#check:checked ~ .sb
+{
+	left: 0;
+}
+#check:checked ~ label #btn
+{
+	left: 13.021vw;
+	opacity: 0;
+	pointer-events: none;
+}
+#check:checked ~ label #cancel
+{
+	left: 10.156vw;
+}
+.abtusbg {
+	border-radius: 7%;
+}
+#abtusbgchocobo {
+	width: 500px;
+	margin: 1%;
+	z-index: 1;
+}
+#abtusbgtunki {
+	width: 500px;
+	margin: 1%;
+	z-index: 1;
+}
+#abtusbgjirkai {
+	width: 500px;
+	margin: 1%;
+	z-index: 1;
+}
+#abtusbgmartyys {
+	margin: auto;
+	background-image: url(abtusbg.png);
+	width: 500px;
+	height: 250px;
+	border-radius: 7%;
+}
+.abtusname {
+	width: 200px;
+}
+#martyysh1 {
+	font-family: 'Poppins';
+	font-weight: bold;
+	position: absolute;
+	color: white;
+
+}

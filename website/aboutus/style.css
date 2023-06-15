@@ -215,3 +215,20 @@ label #cancel
 	margin-top: -350px;
 	margin-left: 950px;
 }
+.aboutus {
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: white;
+	font-size: 60px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	color: white;
+}
+.aboutustext {
+	font-family: 'Poppins';
+	color: gainsboro;
+	font-size: 25px;
+	margin: 100px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+}

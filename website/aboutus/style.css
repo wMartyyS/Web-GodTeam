@@ -115,18 +115,72 @@ label #cancel
 }
 #abtusbgmartyys {
 	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	background-image: url(abtusbg.png);
-	width: 500px;
-	height: 250px;
+	width: 1000px;
+	height: 500px;
+	border-radius: 7%;
+}
+#abtusbgchocobo {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-image: url(abtusbg.png);
+	width: 1000px;
+	height: 500px;
+	border-radius: 7%;
+}
+#abtusbgtunki {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-image: url(abtusbg.png);
+	width: 1000px;
+	height: 500px;
+	border-radius: 7%;
+}
+#abtusbgjirkai {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-image: url(abtusbg.png);
+	width: 1000px;
+	height: 500px;
 	border-radius: 7%;
 }
 .abtusname {
-	width: 200px;
+	width: 400px;
+	margin-top: -5.5%;
 }
-#martyysh1 {
+.abtush1 {
 	font-family: 'Poppins';
 	font-weight: bold;
 	position: absolute;
 	color: white;
-
+	font-size: 60px;
+}
+#martyysbgh1 {
+	margin-left: 355px;
+	margin-top: -110px;
+}
+#martyysinfoh1 {
+	font-size: 67px;
+	margin-top: -320px;
+	margin-left: 403px;
+}
+.abtuspfp {
+	position: relative;
+	width: 350px;
+	margin-top: 30px; 
+	margin-right: 580px;
+}
+.socialmedia {
+	font-family: 'Poppins';
+	position: absolute;
+	color: gray;
+}
+#martyyssocial {
+	margin-top: -200px;
+	margin-left: 570px;
 }

@@ -167,12 +167,12 @@ label #cancel
 #martyysinfoh1 {
 	font-size: 67px;
 	margin-top: -320px;
-	margin-left: 403px;
+	margin-left: 390px;
 }
 .abtuspfp {
 	position: relative;
-	width: 350px;
-	margin-top: 30px; 
+	width: 300px;
+	margin-top: 55px; 
 	margin-right: 580px;
 }
 .socialmedia {
@@ -181,6 +181,37 @@ label #cancel
 	color: gray;
 }
 #martyyssocial {
-	margin-top: -200px;
-	margin-left: 570px;
+	margin-top: -180px;
+	margin-left: 550px;
+}
+.ig {
+	position: absolute;
+	width: 100px;
+	margin-top: 240px;
+	margin-left: -550px;
+}
+.discord {
+	position: absolute;
+	width: 110px;
+	margin-top: 235px;
+	margin-left: -420px;
+}
+#martyysdiscord:hover {
+	cursor: pointer;
+}
+.yt {
+	position: absolute;
+	width: 110px;
+	margin-top: 235px;
+	margin-left: -280px;
+}
+.github {
+	position: absolute;
+	width: 110px;
+	margin-top: 235px;
+	margin-left: -150px;
+}
+#social {
+	margin-top: -350px;
+	margin-left: 950px;
 }

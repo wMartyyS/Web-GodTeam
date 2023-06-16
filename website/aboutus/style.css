@@ -8,6 +8,12 @@
 	text-decoration: none;
 }
 body {
+	background-image: url("https://cdn.discordapp.com/attachments/904061355382935585/1119173740090118155/Backblog_png.png");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
     background-color: #040404;
 	text-align: center;
 }
@@ -161,13 +167,44 @@ label #cancel
 	font-size: 60px;
 }
 #martyysbgh1 {
+	text-shadow: 0px 8px #fc9404;
 	margin-left: 355px;
+	margin-top: -110px;
+}
+#chocobobgh1 {
+	text-shadow: 0px 8px #fc9404;
+	margin-left: 340px;
+	margin-top: -110px;
+}
+#tunkibgh1 {
+	text-shadow: 0px 8px #fc9404;
+	margin-left: 410px;
+	margin-top: -110px;
+}
+#jirkaibgh1 {
+	text-shadow: 0px 8px #fc9404;
+	margin-left: 390px;
 	margin-top: -110px;
 }
 #martyysinfoh1 {
 	font-size: 67px;
-	margin-top: -320px;
+	margin-top: -300px;
 	margin-left: 390px;
+}
+#chocoboinfoh1 {
+	font-size: 67px;
+	margin-top: -300px;
+	margin-left: 385px;
+}
+#tunkiinfoh1 {
+	font-size: 67px;
+	margin-top: -300px;
+	margin-left: 390px;
+}
+#jirkaiinfoh1 {
+	font-size: 37px;
+	margin-top: -300px;
+	margin-left: 380px;
 }
 .abtuspfp {
 	position: relative;
@@ -181,7 +218,19 @@ label #cancel
 	color: gray;
 }
 #martyyssocial {
-	margin-top: -180px;
+	margin-top: -160px;
+	margin-left: 550px;
+}
+#chocobosocial {
+	margin-top: -160px;
+	margin-left: 550px;
+}
+#tunkisocial {
+	margin-top: -160px;
+	margin-left: 550px;
+}
+#jirkaisocial {
+	margin-top: -160px;
 	margin-left: 550px;
 }
 .ig {
@@ -189,27 +238,44 @@ label #cancel
 	width: 100px;
 	margin-top: 240px;
 	margin-left: -550px;
+	transition: transform .2s;
 }
 .discord {
 	position: absolute;
 	width: 110px;
 	margin-top: 235px;
 	margin-left: -420px;
+	transition: transform .2s;
 }
-#martyysdiscord:hover {
+.discord:hover {
 	cursor: pointer;
+	transition: transform .2s;
 }
 .yt {
 	position: absolute;
 	width: 110px;
 	margin-top: 235px;
 	margin-left: -280px;
+	transition: transform .2s;
 }
 .github {
 	position: absolute;
 	width: 110px;
-	margin-top: 235px;
+	margin-top: 230px;
 	margin-left: -150px;
+	transition: transform .2s;
+}
+.ig:hover {
+	transform: scale(1.5);
+}
+.discord:hover {
+	transform: scale(1.5);
+}
+.yt:hover {
+	transform: scale(1.5);
+}
+.github:hover {
+	transform: scale(1.5);
 }
 #social {
 	margin-top: -350px;
@@ -219,12 +285,13 @@ label #cancel
 	font-family: 'Poppins';
 	font-weight: bold;
 	color: white;
-	font-size: 60px;
+	font-size: 120px;
 	margin-top: 100px;
 	margin-bottom: 0px;
 	color: white;
 }
 .aboutustext {
+	text-shadow: 0px 4px gray;
 	font-family: 'Poppins';
 	color: gainsboro;
 	font-size: 25px;

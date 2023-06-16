@@ -282,6 +282,7 @@ label #cancel
 	margin-left: 950px;
 }
 .aboutus {
+	text-shadow: 0px 8px gray;
 	font-family: 'Poppins';
 	font-weight: bold;
 	color: white;
